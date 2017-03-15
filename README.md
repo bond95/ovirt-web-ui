@@ -1,4 +1,14 @@
-POC of new oVirt User Portal.
+# User Portal for oVirt
+Fancy looking UI for standard (non-admin) oVirt users.
+
+This project is meant to be full replacement for existing oVirt Basic User Portal.
+Revised list of Extended User Portal features will be implemented to ideally replace it as well.
+
+Performance bottlenecks of previous Basic User Portal are addressed.
+
+This project is not intended to be full-feature oVirt admin UI, it's focus is on standard user with no or limited administration skills or privileges.
+
+For list of features please refer the [Milestones](https://github.com/oVirt/ovirt-web-ui/milestones) or [Issues](https://github.com/oVirt/ovirt-web-ui/issues).
 
 ## Goals
 - Built on reusable components
