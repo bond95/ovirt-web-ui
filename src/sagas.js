@@ -258,7 +258,7 @@ function* fetchConsoleMetadatas ({ vms }) {
   })
 }
 
-function* fetchSingleVm (action) {
+export function* fetchSingleVm (action) {
   const vm = yield callExternalAction('getVm', Api.getVm, action, true)
 
   if (vm && vm.id) {
